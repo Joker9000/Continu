@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto;
+}
+
+body {
+	background: url('../img/Web\ 1920\ –\ 1.png');
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	height: 30px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+a {
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: Mountains of Christma;
+}
+
+nav button {
+	border-radius: 8px;
+	padding: 12px;
+	background: none;
+	border-color: #77777755;
+}
+
+.right {
+	display: flex;
+	width: 28%;
+	justify-content: space-between;
+	margin-right: 50px;
+}
+
+.left {
+	margin-left: 120px;
+}
+
+.container {
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-text {
+	line-height: 60px;
+	text-align: center;
+	width: 30%;
+}
+
+.background {
+	width: 50%;
+	margin-right: 2%;
+}
+
+.background img {
+	width: 100%;
+}
+
+.header h1 {
+	font-size: 90px;
+	font-weight: 2000px;
+	line-height: 80px;
+}
+
+.header h5 {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.header button {
+	border-radius: 8px;
+	background-color: rgb(16, 16, 31);
+	color: white;
+	padding: 16px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+
+.hero {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	margin-top: 80px;
+	width: 100%;
+}
+
+.hero span {
+	color: #2196f3;
+	margin-right: 16px;
+	text-align: center;
+}
+
+.hero li {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	background: #2196f3;
+	border: none;
+	outline: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.button span {
+	color: white;
+	border: none;
+	outline: none;
+	text-align: center;
+	background: none;
+	padding: 8px;
+}
